@@ -1,5 +1,8 @@
 # Retail Store Data Integration Project: Snowflake, Python, SQL & Power BI
 
+### Dashboard Link: 
+https://app.powerbi.com/groups/me/reports/4c5a1abb-cf01-4821-aed4-33b80d93b8dd/2e73bcb83340ba56a54d?experience=power-bi&bookmarkGuid=e98dc020d34091e47b80
+
 ## 📌 Overview
 This project simulates a real-world scenario of building a modern data warehouse and business intelligence (DWBI) solution for a retail company. Using tools like Python, Snowflake, SQL, and Power BI, we follow the journey from raw data to impactful executive dashboards. The goal is to demonstrate how a complete analytics solution can be built i.e. from data modeling to insight generation, using cloud and open-source tools.
 
