@@ -1,17 +1,17 @@
 # Retail Store Data Integration Project: Snowflake, Python, SQL & Power BI
 
 
-## 📌 Overview
+##  Overview
 This project simulates a real-world scenario of building a modern data warehouse and business intelligence (DWBI) solution for a retail company. Using tools like Python, Snowflake, SQL, and Power BI, we follow the journey from raw data to impactful executive dashboards. The goal is to demonstrate how a complete analytics solution can be built i.e. from data modeling to insight generation, using cloud and open-source tools.
 
 ---
 
-## 🧩 Problem Statement
+##  Problem Statement
 An offline retail company with 100+ stores and thousands of SKUs wants to analyze 10+ years of sales and customer activity. The goal is to generate executive-level insights from their transaction data and loyalty program participation.
 
 ---
 
-## 🛠️ Tools & Technologies Used
+##  Tools & Technologies Used
 - **Python**: For generating synthetic data using libraries like `Faker`, `Random`, and `Pandas`
 - **Snowflake**: To act as the centralized cloud-based data warehouse
 - **SQL (Snowflake dialect)**: For data transformation and ad hoc analysis
@@ -20,9 +20,9 @@ An offline retail company with 100+ stores and thousands of SKUs wants to analyz
 ---
 
 
-## 🔄 Step-by-Step Workflow
+##  Step-by-Step Workflow
 
-### 1. 📐 Data Modeling – ER Diagram
+### 1.  Data Modeling – ER Diagram
 I started by identifying key entities: Customers, Stores, Products, Orders, and Loyalty Programs. From this, I created a **Snowflake Schema**:
 
 - **Dimension Tables**:
@@ -42,7 +42,7 @@ This design ensures normalized storage with efficient querying for analytics.
 
 ---
 
-### 2. 🐍 Data Generation with Python
+### 2.  Data Generation with Python
 I used Python scripts to simulate real-world data for all dimension tables and the fact table.
 
 - **Faker** library was used for generating names, emails, addresses, and dates.
@@ -76,7 +76,7 @@ Screenshot of the scripts of main csv files are as follows:
 
 ---
 
-### 3. ❄️ Loading Data into Snowflake
+### 3.  Loading Data into Snowflake
 On Snowflake account, I created the warehouse, database, schema, and the tables using following commands:
 
 ![image](https://github.com/user-attachments/assets/bb800166-236f-4ee6-b2cf-3fa082496bc3)
@@ -93,7 +93,7 @@ On Snowflake account, I created the warehouse, database, schema, and the tables 
 
 ---
 
-### 4. 🧠 SQL-Based Data Analysis in Snowflake
+### 4.  SQL-Based Data Analysis in Snowflake
 Using SQL, I ran **ad hoc queries** to explore the data and find insights. Some examples include:
 
 - Revenue by Region, Loyalty Tier, or Store Type
@@ -125,9 +125,9 @@ Using SQL, I ran **ad hoc queries** to explore the data and find insights. Some 
 ---
 
 
-## 📊 Power BI Dashboard – “Retail Store Overview”
+##  Power BI Dashboard – “Retail Store Overview”
 
-### 5. 🔧 Data Modeling and Cleaning in Power BI
+### 5. Data Modeling and Cleaning in Power BI
 - Connected Power BI to Snowflake via DirectQuery
 - Created relationships between fact and dimension tables
 
@@ -165,7 +165,7 @@ These KPIs enabled deep exploration of business performance.
 
 ---
 
-### 7. 📈 Visuals Created in Power BI
+### 7. Visuals Created in Power BI
 
 **KPI Cards**
 
@@ -181,7 +181,7 @@ These KPIs enabled deep exploration of business performance.
 
 ---
 
-## 💡 Business Insights Extracted
+##  Business Insights Extracted
 - **Korea** is the top-performing country in both order volume and revenue
 - **Diamond loyalty members** drive the most orders
 - **SMBs** contribute to over 34% of total business
